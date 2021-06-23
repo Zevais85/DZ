@@ -1,0 +1,30 @@
+Last login: Tue Jun  1 22:33:17 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+mini-dmitriy:~ dmitriy$ ruby -v
+ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-darwin19]
+mini-dmitriy:~ dmitriy$ DS
+
+
+
+
+Last login: Tue Jun  1 22:38:16 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+mini-dmitriy:~ dmitriy$ irb
+3.0.0 :001 > puts "Привет Олег"
+Привет Олег
+ => nil 
+3.0.0 :002 > def a(name)
+3.0.0 :003 >   puts "Привет #{name}."
+3.0.0 :004 > end
+ => :a 
+3.0.0 :005 > a("Олег")
+Привет Олег.
+ => nil 
+3.0.0 :006 > 
+
