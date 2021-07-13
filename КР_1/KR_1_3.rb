@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 print 'Input nuber:'
 input = gets.chomp
 if (input.to_f % 2).zero?
@@ -6,8 +8,6 @@ else
   puts 'Нечетное'
 end
 
-
-
 print 'Input nubers: '
 arr = gets.chomp
 summ = 0
@@ -15,8 +15,6 @@ arr.split(' ').each do |element|
   summ += element.to_f
 end
 puts "Сумма: #{summ}"
-
-
 
 number = gets.chomp
 f = 1

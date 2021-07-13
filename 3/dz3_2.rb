@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 ##
 # Сотрудник компании
 # ФИО сотрудника компании
@@ -6,16 +8,15 @@ class User
     'Иванов Иван Иванович'
   end
 
-#Профессия сотрудника
+  # Профессия сотрудника
 
   def profession
     'Слесарь'
   end
-
 end
 
-#Вывод информации о сотруднике
+# Вывод информации о сотруднике
 
 user = User.new
-puts 'Ф.И.О.:' + user.fio
-puts 'Профессия:' + user.profession
+puts "Ф.И.О.:#{user.fio}"
+puts "Профессия:#{user.profession}"

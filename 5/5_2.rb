@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Car
   attr_accessor :date, :boks
 end
