@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Opening standart Integer class
 class Integer
   BITS = 1024
   def kilobytes

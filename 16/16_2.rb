@@ -16,3 +16,4 @@ user1 = User.new do |user|
   user.patrinimyc = 'Петрович'
   user.email = 'a.hrenov@yandex.ru'
 end
+puts user1
