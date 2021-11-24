@@ -1,0 +1,5 @@
+utf8 "✓"
+authenticity_token:"XdRCCyXeUU+2OQ95WrWOJLPXrAas3/ugPQuo7u6aQcsIZIXq93jkEQEmPWE5tQAlgBKs7FoN2yhJjCn+7tmj0w=="
+user[email]: "z.....@ya.ru"
+user[password]: "54578546788"
+user[remember_me]: "0"
